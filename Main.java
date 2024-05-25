@@ -11,7 +11,7 @@ public class Main {
         System.out.print("Was this a Win or a Loss?: ");
         String winOrLoss = userInput.next();
         boolean win = Boolean.valueOf(winOrLoss);
-            if (!win) {
+            if (win) {
                 System.out.print("What was the match length? (Minutes:seconds): ");
                 String matchTime = userInput.next();
                 System.out.println("Loss recorded at " + matchTime);
@@ -30,7 +30,12 @@ public class Main {
             }
         }
 
-
+ /* TO DO:
+    - Create array for submission types.
+    - Create method for constructing an individual fighter.
+    - Make the data that is entered actually start tracking statistics.
+    - create UI for viewing statistics.
+  */
 
 
 
